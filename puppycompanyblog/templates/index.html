@@ -19,8 +19,8 @@
     {% endfor %}
         
 </div>
-
-<nav aria-label='Page Navigation example'>
+<br>
+<nav aria-label='Page Navigation example' style="margin: 0px auto; width: fit-content;">
     <ul  class="pagination">
         {% for page_num in blog_posts.iter_pages(left_edge=1, right_edge=1, right_current=2) %}
         {% if blog_posts.page == page_num %}
